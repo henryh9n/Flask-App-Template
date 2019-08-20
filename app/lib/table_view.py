@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 
-"""Document description."""
+"""Table view."""
 
 __version__ = '0.0.1'
 __author__ = 'hharutyunyan'
-__copyright__ = 'Copyright 2018, hharutyunyan'
+__copyright__ = 'Copyright 2019, hharutyunyan'
 __license__ = 'All Rights Reserved'
 __maintainer__ = 'hharutyunyan'
-__status__ = "Production"
+__status__ = "Development"
 
 from typing import Any, Iterable
 from app.lib.data_view import DataView

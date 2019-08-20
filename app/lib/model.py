@@ -1,3 +1,14 @@
+#!/usr/bin/env python3
+
+"""Data model base class."""
+
+__version__ = '0.0.1'
+__author__ = 'hharutyunyan'
+__copyright__ = 'Copyright 2019, hharutyunyan'
+__license__ = 'All Rights Reserved'
+__maintainer__ = 'hharutyunyan'
+__status__ = "Development"
+
 from typing import Any, Iterable
 from app.lib.table_view import TableView
 

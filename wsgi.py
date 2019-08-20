@@ -4,10 +4,10 @@
 
 __version__ = '1.0.0'
 __author__ = 'hharutyunyan'
-__copyright__ = 'Copyright 2018, hharutyunyan'
+__copyright__ = 'Copyright 2019, hharutyunyan'
 __license__ = 'All Rights Reserved'
 __maintainer__ = 'hharutyunyan'
-__status__ = "Production"
+__status__ = "Development"
 
 from app import app as application
 

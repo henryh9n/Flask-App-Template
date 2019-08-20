@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-"""Document description."""
+"""main config of the project"""
 
 __version__ = '0.0.1'
 __author__ = 'hharutyunyan'
