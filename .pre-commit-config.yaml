@@ -1,0 +1,31 @@
+repos:
+  - repo: https://github.com/asottile/reorder_python_imports
+    rev: v1.9.0
+    hooks:
+      - id: reorder-python-imports
+        name: Reorder Python imports
+  - repo: https://github.com/python/black
+    rev: 19.10b0
+    hooks:
+      - id: black
+        name: Formatting Python code [Black]
+  - repo: https://gitlab.com/pycqa/flake8
+    rev: 3.7.9
+    hooks:
+      - id: flake8
+        additional_dependencies: [flake8-bugbear]
+        name: Checking the style and quality of the code [Flake8]
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v2.5.0
+    hooks:
+      # Trims trailing whitespace
+      - id: trailing-whitespace
+      # Makes sure files end in a newline and only a newline
+      - id: end-of-file-fixer
+      # Checks for a common error of placing code before the docstring.
+      - id: check-docstring-first
+      # Check for debugger imports and py37+ breakpoint() calls in python source
+      - id: debug-statements
+      # Assert that files in tests/ end in _test.py.
+      - id: name-tests-test
+        name: New line at the end of file | Trim trailing whitespace | Check for docstrings | etc
